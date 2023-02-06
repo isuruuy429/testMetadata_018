@@ -1,0 +1,11 @@
+[package]
+org = "wso2healthcare"
+name = "testMetadata_018"
+version = "0.1.8"
+export = ["testMetadata_018.config","testMetadata_018.constants","testMetadata_018.handlers","testMetadata_018.models","testMetadata_018.samples"]
+distribution = "2201.3.1"
+authors = ["WSO2 Healthcare"]
+keywords = ["Healthcare","FHIR","Metadata"]
+
+[build-options]
+observabilityIncluded = true

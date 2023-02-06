@@ -1,0 +1,22 @@
+## server related configurables
+[server_info]
+version = "1.2.0"
+name = "WSO2 Open Healthcare FHIR"
+title = "FHIR Server"
+status = "active"
+experimental = true
+date = "2022-11-24"
+kind = "instance"
+fhir_version = "4.0.1"
+format = ["json", "xml"]
+patch_format = ["application/json-patch+json"]
+implementation_url = "https://d52c48b3-b62e-4a9c-966b-585f22b4711d-dev.e1-us-east-azure.choreoapis.dev/d7k7/fhir_server/0.1.5"
+implementation_description = "WSO2 Open Healthcare FHIR"
+interactions = ["search-system"]
+
+## server security related configurables
+[security]
+cors = true
+token_url = "https://sts.choreo.dev/oauth2/token"
+revoke_url = "https://sts.choreo.dev/oauth2/revoke"
+authorize_url = "https://sts.choreo.dev/oauth2/authorize"
